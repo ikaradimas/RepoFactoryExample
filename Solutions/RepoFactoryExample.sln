@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepoFactoryExample.Api", "..\Projects\RepoFactoryExample.Api\RepoFactoryExample.Api.csproj", "{959FA88F-2C54-43D0-A9EF-D9F9C853FD0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepoFactoryExample.Data", "..\Projects\RepoFactoryExample.Data\RepoFactoryExample.Data.csproj", "{F6E00903-8055-4AF5-9204-DB9D28BE6A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepoFactoryExample.Data.Interface", "..\Projects\RepoFactoryExample.Data.Interface\RepoFactoryExample.Data.Interface.csproj", "{015B6B7E-0970-4C5C-B3B2-D9C8408F3FE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{959FA88F-2C54-43D0-A9EF-D9F9C853FD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959FA88F-2C54-43D0-A9EF-D9F9C853FD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959FA88F-2C54-43D0-A9EF-D9F9C853FD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959FA88F-2C54-43D0-A9EF-D9F9C853FD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E00903-8055-4AF5-9204-DB9D28BE6A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E00903-8055-4AF5-9204-DB9D28BE6A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E00903-8055-4AF5-9204-DB9D28BE6A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E00903-8055-4AF5-9204-DB9D28BE6A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015B6B7E-0970-4C5C-B3B2-D9C8408F3FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015B6B7E-0970-4C5C-B3B2-D9C8408F3FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015B6B7E-0970-4C5C-B3B2-D9C8408F3FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015B6B7E-0970-4C5C-B3B2-D9C8408F3FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
