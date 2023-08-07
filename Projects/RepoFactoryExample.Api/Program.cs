@@ -1,15 +1,21 @@
+using Microsoft.EntityFrameworkCore;
+using RepoFactoryExample.Data.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Database Context
+builder.Services.AddDbContext<RepoFactoryExampleDbContext>(
+    options => options.UseInMemoryDatabase("ExampleDb"));
+
+builder.Services.AddRepositories();
+builder.Services.AddRepositoryFactory();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

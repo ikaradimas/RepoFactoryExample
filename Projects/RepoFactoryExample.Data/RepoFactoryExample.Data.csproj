@@ -4,6 +4,10 @@
     <ProjectReference Include="..\RepoFactoryExample.Data.Interface\RepoFactoryExample.Data.Interface.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.9" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
