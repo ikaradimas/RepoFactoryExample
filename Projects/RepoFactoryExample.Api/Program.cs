@@ -7,7 +7,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Database Context
+// Database Context; registered by default as scoped.
+// This here is a good explanation why: https://stackoverflow.com/a/37511175/366313
 builder.Services.AddDbContext<RepoFactoryExampleDbContext>(
     options => options.UseInMemoryDatabase("ExampleDb"));
 

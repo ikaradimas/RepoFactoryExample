@@ -9,6 +9,6 @@ public class RepoFactoryExampleDbContext : DbContext
 
     public RepoFactoryExampleDbContext(DbContextOptions<RepoFactoryExampleDbContext> options) 
         : base(options) {}
-
+    
     public DbSet<TodoItem> TodoItems { get; set; } = default!;
 }
